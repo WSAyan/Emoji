@@ -1,5 +1,9 @@
 # Emoji
 
+This fork contains weired old emojis like these:
+![](./emoji-mig/src/main/res/drawable-nodpi/face17.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face22.png) ![](./emoji-mig/src/main/res/drawable-nodpi/gest80.png) ![](./emoji-mig/src/main/res/drawable-nodpi/food97.png)
+![](./emoji-mig/src/main/res/drawable-nodpi/face35.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face31.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face28.png) ![](./emoji-mig/src/main/res/drawable-nodpi/gest92.png)
+ 
 A library to add Emoji support to your Android app. Emojis can be picked in a PopupWindow. In order to edit and display text with Emojis this library provides public APIs:
 
 - [`EmojiAutoCompleteTextView`](emoji/src/main/java/com/vanniktech/emoji/EmojiAutoCompleteTextView.java)
