@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emoji_mig_category_faces">Faces</string>
+    <string name="emoji_mig_category_animals">Animals</string>
+    <string name="emoji_mig_category_foodanddrink">Foods</string>
+    <string name="emoji_mig_category_aliens">Aliens</string>
+    <string name="emoji_mig_category_gifts">Gifts</string>
+    <string name="emoji_mig_category_gestures">Gestures</string>
+    <string name="emoji_mig_category_objects">Objects</string>
+    <string name="emoji_mig_category_symbols">Symbols</string>
+    <string name="emoji_mig_category_flags">Flags</string>
+</resources>

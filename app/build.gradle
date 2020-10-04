@@ -59,7 +59,7 @@ dependencies {
   implementation project(':emoji-facebook')
   implementation project(':emoji-kotlin')
   implementation project(':emoji-material')
-  implementation project(':emoji-custom')
+  implementation project(':emoji-mig')
   implementation "androidx.recyclerview:recyclerview:1.1.0"
 }
 
