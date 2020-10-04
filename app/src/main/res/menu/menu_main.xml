@@ -30,6 +30,9 @@
         <item
             android:id="@+id/menuMainFacebook"
             android:title="Facebook" />
+        <item
+            android:id="@+id/menuMainMig"
+            android:title="Mig" />
       </group>
     </menu>
   </item>

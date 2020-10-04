@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
       case R.id.menuMainVariantIos:
         EmojiManager.destroy();
-        EmojiManager.install(new MigEmojiProvider());
+        EmojiManager.install(new IosEmojiProvider());
         recreate();
         return true;
       case R.id.menuMainGoogle:
@@ -144,6 +144,11 @@ public class MainActivity extends AppCompatActivity {
       case R.id.menuMainFacebook:
         EmojiManager.destroy();
         EmojiManager.install(new FacebookEmojiProvider());
+        recreate();
+        return true;
+      case R.id.menuMainMig:
+        EmojiManager.destroy();
+        EmojiManager.install(new MigEmojiProvider());
         recreate();
         return true;
       case R.id.menuMainGoogleCompat:
