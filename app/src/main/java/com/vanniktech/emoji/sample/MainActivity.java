@@ -45,6 +45,7 @@ import com.vanniktech.emoji.googlecompat.GoogleCompatEmojiProvider;
 import com.vanniktech.emoji.ios.IosEmojiProvider;
 import com.vanniktech.emoji.material.MaterialEmojiLayoutFactory;
 import com.vanniktech.emoji.twitter.TwitterEmojiProvider;
+import com.wsayan.emoji_custom.CustomEmojiProvider;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
@@ -127,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
       case R.id.menuMainVariantIos:
         EmojiManager.destroy();
-        EmojiManager.install(new IosEmojiProvider());
+        EmojiManager.install(new CustomEmojiProvider());
         recreate();
         return true;
       case R.id.menuMainGoogle:
