@@ -1,13 +1,21 @@
 # Emoji
 
-This fork contains a collection weired old emojis like these:
+This fork contains a collection weired old Mig33 like emojis like these:
 
 ![](./emoji-mig/src/main/res/drawable-nodpi/face17.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face22.png) ![](./emoji-mig/src/main/res/drawable-nodpi/gest80.png) ![](./emoji-mig/src/main/res/drawable-nodpi/food97.png)
 ![](./emoji-mig/src/main/res/drawable-nodpi/face35.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face31.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face28.png) ![](./emoji-mig/src/main/res/drawable-nodpi/gest92.png)
 
 
+For getting the above Emojis simply add the dependency and code below.
+
 ```groovy
 implementation 'com.github.wsayan:emoji:v1.0.0-alpha'
+```
+
+Install the provider in your application class.
+
+```java
+EmojiManager.install(new MigEmojiProvider());
 ```
 
  
