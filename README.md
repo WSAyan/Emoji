@@ -1,6 +1,6 @@
 # Emoji
 
-This fork contains a collection weired old Mig33 like emojis like these:
+This fork contains a collection of weired old Mig33 like emojis like these:
 
 ![](./emoji-mig/src/main/res/drawable-nodpi/face17.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face22.png) ![](./emoji-mig/src/main/res/drawable-nodpi/gest80.png) ![](./emoji-mig/src/main/res/drawable-nodpi/food97.png)
 ![](./emoji-mig/src/main/res/drawable-nodpi/face35.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face31.png) ![](./emoji-mig/src/main/res/drawable-nodpi/face28.png) ![](./emoji-mig/src/main/res/drawable-nodpi/gest92.png)
